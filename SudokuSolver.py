@@ -56,7 +56,7 @@ def checkGrid(grid):  # chicks if there is any empty cells
 
 def set_board(cp, solution, required):  # removes some blocks and adds back untill satisfied
     time=perf_counter()
-    empty = 0  # max should be around 66 the remaining is 15
+    empty = 0  # number of empty cells in the grid
     # first we remove random blocks
     while empty < 81-required:
         x = random.randint(0, 8)
