@@ -32,7 +32,7 @@ font_obj_2 = pygame.font.SysFont('arial', 35)
 text_1 = font_obj.render(
     'Use directions for transitions and num keys for input.', True, black)
 text_2 = font_obj.render(
-    'Reset the board using R, press U to solve autotically.', True, black)
+    'Reset the board using R, press U to solve automatically.', True, black)
 text_3 = font_obj.render(
     'Generate new grid using N. *it may take a second', True, black)
 
